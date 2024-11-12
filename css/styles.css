@@ -38,9 +38,7 @@ body{
     background-color: #fff;
 }
 
-.header{
 
-}
 
 .container{
     width: 1190px;
@@ -49,9 +47,17 @@ body{
     margin: 0 auto;
 }
 
+/* ----------------header------------- */
+
+.header{
+    background: linear-gradient(0deg, #fff 0%, #f5f6eb 15%, #e9edcd 50%, #ccd5ae 100%);
+    min-height: 100vh;
+}
+
 .header-nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .header-menu-list{
@@ -63,3 +69,37 @@ body{
     padding: 45px 0;
     font-size: 20px;
 }
+
+.header-menu-link:hover, .header-menu-link:focus, .header-menu-title:focus, .header-menu-title:hover, .header-scroll-btn:hover, .header-scroll-btn:focus {
+    color: #874A0F;
+}
+
+.header-logo-wrap{
+    display: flex;
+    gap: 21px;
+    align-items: center;
+
+
+}
+
+.header-title{
+    font-size: 54px;
+    margin: 0 auto;
+    max-width: 366px;
+    margin-top: 15%;
+}
+
+.header-scroll-btn{
+    margin: 0 auto;
+    display: block;
+    max-width: 93px;
+}
+
+/* ------------------------------------------ */
+
+/* -------------------------------------- */
+
+
+
+
+/* ------------------------------------------ */
