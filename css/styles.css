@@ -96,7 +96,8 @@ body{
 .header-scroll-btn{
     margin: 0 auto;
     display: block;
-    max-width: 93px;
+    max-width: 135px;
+	gap: 14px;
     display: flex;
     align-items: center;
 }
