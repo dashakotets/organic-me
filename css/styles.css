@@ -97,6 +97,20 @@ body{
     margin: 0 auto;
     display: block;
     max-width: 93px;
+    display: flex;
+    align-items: center;
+}
+
+.header-scroll-btn::after{
+	content: '';
+    width: 38px;
+    height: 38px;
+    background-color: #fff;
+    border-radius: 50%;
+    background-image: url(../images/arrow.png);
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 /* ------------------------------------------ */
