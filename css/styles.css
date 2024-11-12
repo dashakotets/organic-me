@@ -52,6 +52,7 @@ body{
 .header{
     background: linear-gradient(0deg, #fff 0%, #f5f6eb 15%, #e9edcd 50%, #ccd5ae 100%);
     min-height: 100vh;
+	position: relative;
 }
 
 .header-nav{
@@ -98,20 +99,37 @@ body{
     display: block;
     max-width: 145px;
 	gap: 10px;
-    display: flex;
-    align-items: center;
+	display: flex;
+	align-items: center;
+	position: absolute;
+	bottom: 5%;
+	left: 0;
+	right: 0;
 }
+	
 
 .header-scroll-btn::after{
 	content: '';
     width: 38px;
     height: 38px;
-    background-color: #fff;
+    background-color: #F5F6EB;
     border-radius: 50%;
     background-image: url(../images/arrow.png);
     background-position: center;
     background-repeat: no-repeat;
+	
 
+}
+
+
+
+.header-subtitle{
+	max-width: 875px;
+	margin-top: 13%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 18px;
 }
 
 /* ------------------------------------------ */
