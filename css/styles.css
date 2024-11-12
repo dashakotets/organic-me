@@ -82,6 +82,10 @@ body{
 
 }
 
+.header-logo{
+	padding: 5px 0;
+}
+
 .header-title{
     font-size: 54px;
     margin: 0 auto;
