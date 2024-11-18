@@ -34,7 +34,7 @@ h6 {
 
 body{
     font-family: 'Montserrat', sans-serif;
-    color: black;
+    color: #151515;
     background-color: #fff;
 }
 
@@ -92,6 +92,12 @@ body{
     margin: 0 auto;
     max-width: 366px;
     margin-top: 15%;
+    transition: font-size ease .3s, max-width ease .3s;
+}
+
+.header-title:focus, .header-title:hover{
+    font-size: 62px;
+    max-width: 450px;
 }
 
 .header-scroll-btn{
