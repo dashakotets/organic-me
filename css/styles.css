@@ -21,6 +21,14 @@ img{
         height: auto;
 }
 
+p{
+    text-align: center;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    font-weight: 400;
+}
+
 p,
 h1,
 h2,
@@ -109,7 +117,8 @@ body{
 
 .header-scroll-btn{
     margin: 0 auto;
-    display: block;
+    /* display: block;
+     */
     max-width: 145px;
 	gap: 10px;
 	display: flex;
@@ -141,7 +150,7 @@ body{
 
 
 .header-subtitle{
-	max-width: 875px;
+	max-width: 850px;
 	margin-top: 13%;
 	text-align: center;
 	margin-left: auto;
@@ -157,9 +166,22 @@ body{
 .honey {
     padding: 100px 0;
 }
-.honey-title {
 
+.honey-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.honey-title::before {
+    content: '';
+    background-image: url(../images/honey-logo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+}
+
 .honey-subtitle {
     font-weight: 400;
     font-size: 32px;
@@ -172,14 +194,53 @@ body{
     gap: 100px;
 }
 .honey-img {
+    align-self: stretch;
 }
 .honey-text {
-    text-align: center;
-    font-size: 20px;
     background-color: #e9edc9;
     padding: 82px 42px;
-    line-height: 150%;
-    letter-spacing: 0.01em;
+    text-align: center;
 }
+
+/* ------------------------------------------ */
+
+/* --------------------star-bee---------------------- */
+
+.star-bee {
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.star-inner {
+    max-width: 600px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.star-title {
+    margin-bottom: 50px;
+}
+.star-text {
+    /* max-width: 407px; */
+    margin: 0 auto;
+}
+
+.star-text + .star-text{
+    margin-top: 10px;
+}
+
+.star-text span{
+    font-weight: 600;
+}
+.star-img {
+    margin: 45px auto;
+
+}
+.star-icon {
+    position: absolute;
+    left: 489px;
+    bottom: -189px;
+
+}
+
 
 /* ------------------------------------------ */
