@@ -244,3 +244,45 @@ body{
 
 
 /* ------------------------------------------ */
+
+
+
+
+
+
+/* ------------------------------------------ */
+/* ---------------------footer--------------------- */
+
+.footer {
+}
+.footer-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-list {
+    display: flex;
+    gap: 25px;
+    font-size: 16px;
+}
+.footer-list-item {
+}
+.footer-list-link {
+}
+.footer-logo-link {
+}
+.footer-logo {
+}
+.footer-social {
+    display: flex;
+    gap: 10px;
+}
+.footer-social-item {
+}
+.footer-social-link {
+}
+.footer-social-img {
+}
+
+
+/* ------------------------------------------ */
