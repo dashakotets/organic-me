@@ -208,7 +208,7 @@ body{
 
 .star-bee {
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 .star-inner {
     max-width: 600px;
@@ -238,7 +238,7 @@ body{
 .star-icon {
     position: absolute;
     left: 489px;
-    bottom: -189px;
+    bottom: -175px;
 
 }
 
@@ -254,34 +254,51 @@ body{
 /* ---------------------footer--------------------- */
 
 .footer {
+    margin-bottom: 100px;
 }
 .footer-nav {
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 .footer-list {
     display: flex;
     gap: 25px;
-    font-size: 16px;
+    font-size: 14px;
+    align-items: center;
 }
 .footer-list-item {
 }
 .footer-list-link {
 }
 .footer-logo-link {
+    display: flex;
+    justify-self: center;
+
 }
 .footer-logo {
 }
 .footer-social {
     display: flex;
     gap: 10px;
+    justify-self: end;
 }
 .footer-social-item {
 }
 .footer-social-link {
 }
+
 .footer-social-img {
+    background-color: transparent;
+    border-radius: 50%;
+    padding: 4px;
+    
+}
+.footer-social-img:hover{
+    box-shadow: 0 4px 4px 0 #874a0f;
+
 }
 
 
