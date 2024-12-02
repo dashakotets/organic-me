@@ -339,10 +339,73 @@ main{
 }
 
 .top-title{
-    padding: 40px;
+    padding: 30px;
     text-align: center;
     font-weight: 400;
     font-size: 40px;
+}
+
+.map{
+    padding: 100px 0;
+}
+
+.title{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.map-title{
+    margin-bottom: 50px;
+}
+
+.contacts-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contacts-list-item {}
+
+.contacts-list-link:hover {
+color: #874A0F;
+}
+
+.social-media {
+    margin-top: 150px;
+}
+
+.social-title {
+    font-weight: 400;
+        font-size: 32px;
+        text-align: center;
+        margin-bottom: 70px;
+}
+
+.social-media-list {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-media-item {}
+
+.social-media-link {}
+
+.social-media-img {
+    background-color: transparent;
+        border-radius: 50%;
+        padding: 4px 8px;
+}
+
+.social-media-img:hover{
+    box-shadow: 0 4px 4px 0 #874a0f;
 }
 
 /* ------------------------------------------ */
