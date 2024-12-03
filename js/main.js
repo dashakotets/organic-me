@@ -1,4 +1,4 @@
-const windowHeight = document.querySelector('.header').clientHeight;
+const windowHeight = document.querySelector('.header-index').clientHeight;
 
 function onScrollBtn() {
     window.scrollBy({
