@@ -495,12 +495,15 @@ main{
 .container {
 }
 .cafe-subtitle {
+    margin-bottom: 50px;
 }
 .cafe-text {
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: auto auto;
     gap: 40px 30px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 .cafe-text img{
@@ -528,8 +531,22 @@ main{
     max-width: 565px;
     max-height: 225px;
 }
-.cafe-paragraph {
+.cafe-paragraph, .cafe-reservation{
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
+
+.cafe-reservation{
+    margin-top: 30px;
+}
+
+.cafe-reservation:hover a{
+    color: #874A0F;
+}
+
+
+
 
 
 /* ------------------------------------------ */
