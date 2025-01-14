@@ -963,4 +963,30 @@ color: #874A0F;
     .form-control{
         width: 340px;
     }
+
+    .footer-logo-link{
+        display: none;
+    }
+
+    .footer-nav{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-social-img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .cafe-text{
+        margin-top: 70px;
+        margin-bottom: 70px;
+        display: block;
+    }
+
+    .cafe-text-img-menu, .cafe-text-img-2, .cafe-text-img-3{
+        display: none;
+    }
+    .cafe-text-paragraph{
+        margin-top: 25px;
+    }
 }
