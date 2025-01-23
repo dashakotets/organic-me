@@ -875,7 +875,7 @@ color: #874A0F;
 }
 
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 375px){
     .container {
         width: 345px;
     }
